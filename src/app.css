@@ -1,0 +1,45 @@
+.app{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 50px;
+}
+
+span{
+  font-size: 20px;
+  margin: 12px 0;
+}
+
+.area-input{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.area-input input{
+  margin-bottom: 12px;
+  background-color: #121212;
+  padding: 0 12px;
+  text-align: center;
+}
+.area-input input, button{
+  width: 100%;
+  height: 46px;
+  border: 0;
+  border-radius: 6px;
+  color: #FFF;
+  font-size: 18px;
+}
+.area-input button{
+  background-color: #357AFF;
+}
+
+h2{
+  margin-top: 28px;
+}
